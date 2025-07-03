@@ -5,6 +5,9 @@
     <changeSet id="create-clientes-table" author="jorge" runOnChange="true">
         <sqlFile path="../sql/001_create_table_clientes.sql" relativeToChangelogFile="true"/>
     </changeSet>
+    
+    <include file="apex/apex_app_100.xml" relativeToChangelogFile="true"/>
+
 
 </databaseChangeLog>
 
